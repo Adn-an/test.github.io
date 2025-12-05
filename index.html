@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image et IA Multimodale</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header> 
+      <h1>test </h1>
+      <h2>h2</h2>
+      <h3>h3</h3>
+    </header>
+
+    <section>
+      <h2>Motivation</h2>
+      <p>
+        motivations
+      </p>
+    </section>
+
+    <section>
+      <h2>Objectifs</h2>
+      <p>
+        objectifs
+      </p>
+    </section>
+
+    <section>
+      <h2>Tentative Challenge (In Construction): Lung Nodule Localization in Chest X-Ray Images</h2>
+      <p>
+        Our challenge focuses on developing and improving Lung Nodule localization methods in Chest X-Ray images. 
+        In this challenge we focus on X and Y.
+      </p>
+      <p>
+        Any person interested in solving diagnostic problematics linked to emerging AI solutions is welcome.
+      </p>
+
+
+      <p>
+        
+      </p>
+
+      
+    <section>
+      <h2>Challenge : Défi de notation automatique de la gravité des infections pulmonaires</h2>
+      <p>
+	L’évaluation de la gravité des infections pulmonaires chez les patients est d’une grande importance pour le personnel médical afin de mettre en place un traitement efficace et adapté. Une méthode d’évaluation émergente repose sur l’analyse d’images biomédicales à l’aide de modèles d’intelligence artificielle. Ces modèles prennent des images en entrée et tentent de prédire un score pour chaque patient. Les scores prédits peuvent inclure : l’évaluation radiographique de l’opacité pulmonaire, l’évaluation radiographique de l’œdème pulmonaire, ou encore le score Brixia pour la gravité de la COVID-19.
+      </p>	      
+	<p>
+	    Toute personne intéressée par des problématiques liées aux solutions d’IA émergentes est la bienvenue pour participer.
+		</p>
+<p>L’objectif de ce défi est de construire un modèle prenant en entrée une radiographie thoracique afin de prédire un score de gravité pour un patient donné, selon le score RALO (Radiographic Assessment of Lung Opacity). Chaque image disposera d’un score d’opacité pulmonaire et d’un score d’étendue géographique, chacun variant de 0 à 8, que l’algorithme devra prédire.</p>
+<p>Les données utilisées proviendront des jeux de données <a href="https://doi.org/10.5281/zenodo.4634000">RALO</a> et <a href="https://brixia.github.io/">BrixIA</a>. Un jeu de test à l’aveugle devra être créé. Les licences des données devront être vérifiées.</p>
+<p>Les modèles seront évalués à l’aide de la perte L1 (ou erreur absolue moyenne). En cas d’égalité, le coefficient de corrélation de Pearson sera utilisé. En cas de nouvelle égalité, l’erreur quadratique moyenne (MSE) sera prise en compte.</p>
+<p>Le modèle fourni atteint une performance moyenne de 0,889 MAE avec un coefficient de corrélation de 0,824 pour le score GE (étendue géographique) sur le jeu de test RALO, et une MAE de 0,826 avec un coefficient de corrélation de 0,715 pour le score LO (opacité pulmonaire) du même jeu de test. Le test utilisé durant la phase de classement public est défini <a href="https://github.com/mlmed/covid-severity/blob/master/severity_utils.py">ici</a>. 
+<p>Les résultats doivent être reproductibles.</p>
+      
+    </section>
+	  
+
+<h2>Références</h2>
+
+</body>
+</html>
